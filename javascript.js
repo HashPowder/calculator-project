@@ -1,3 +1,9 @@
 const numberNine = 9;
-const numberEight = 8;
+let currentNumber = 0;
 
+
+
+function display() {
+    currentNumber = document.getElementById("display-text");
+    currentNumber.innerText = numberNine;
+}
