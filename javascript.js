@@ -11,4 +11,6 @@ function displayEight() {
     displayStr = document.getElementById("display-text");
     displayStr.innerText += eightStr;
 }
-
+function subtract() {
+    
+}
