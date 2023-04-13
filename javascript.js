@@ -1,7 +1,7 @@
-const nineStr = document.getElementById("btn-nine");
-const eightStr = "8";
-const minusStr = "-";
-let currentNumber = 0;
+let nineStr = "9";
+let displayStr = document.getElementById("display-text").innerText;
+console.log(displayStr);
 
-alert(nineStr);
-
+function displayNine() {
+   displayStr.innerText = nineStr;
+}
